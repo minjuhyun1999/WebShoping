@@ -1,7 +1,11 @@
 package com.busanit501.webshoping.ResponseDto;
 
 import com.busanit501.webshoping.Entity.Review;
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter
+@Setter
 public class ReviewResponseDto {
     private Long id;
     private String content;

@@ -1,7 +1,9 @@
 package com.busanit501.webshoping.ResponseDto;
 
 import com.busanit501.webshoping.Entity.Product;
+import lombok.Getter;
 
+@Getter
 public class ProductResponseDto {
     private Long id;
     private String name;
@@ -12,6 +14,4 @@ public class ProductResponseDto {
         this.name = product.getName();
         this.price = product.getPrice();
     }
-
-    // Getter
 }
